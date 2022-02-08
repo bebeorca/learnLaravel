@@ -11,7 +11,7 @@
                         {{ $menu->menu }}
                     </a>
                 </h3>
-                <p>By <a href="#">{{ $menu->kantin->name }}</a> di kategori <a href="/categories/{{ $menu->category->name }} "
+                <p>By <a href="/kantin/{{ $menu->kantin->name }}">{{ $menu->kantin }}</a> di kategori <a href="/categories/{{ $menu->category->name }} "
                     class="text-decoration-none" >{{ $menu->category->name }}</a></p>
             </li>
 

@@ -10,7 +10,8 @@ class MenusController extends Controller
     public function index(){
         return view('menus',[
             "title" => "Menus",
-            "menus" => Menus::all()
+            "menus" => Menus::latest()->get()
+            // "menus" => Menus::all()
         ]);
     }
 
