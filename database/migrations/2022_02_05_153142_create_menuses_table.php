@@ -16,6 +16,7 @@ class CreateMenusesTable extends Migration
         Schema::create('menuses', function (Blueprint $table) {
             $table->id();
             $table->foreignId('category_id');
+            $table->foreignId('kantin_id');
             $table->string('menu');
             $table->string('slug')->unique();
             $table->string('harga');

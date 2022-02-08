@@ -7,7 +7,7 @@
         
             <li>
                 <h3>
-                    <a href="/menu/{{ $menu->slug }}">
+                    <a href="/menus/{{ $menu->slug }}">
                         {{ $menu->menu }}
                     </a>
                 </h3>

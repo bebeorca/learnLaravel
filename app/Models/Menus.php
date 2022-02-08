@@ -15,6 +15,10 @@ class Menus extends Model
         return $this->belongsTo(Category::class);
     }
 
+    public function kantin(){
+        return $this->belongsTo(User::class);
+    }
+
 }
 
 

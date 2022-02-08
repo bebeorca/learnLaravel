@@ -13,7 +13,7 @@
             <a class="nav-link {{ ($title == "Kategori Menu") ? 'active' : '' }}" href="/categories">Kategori Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link {{ ($title == "Menus") ? 'active' : '' }}" href="/menus">Semua Menu</a>
           </li>
         </ul>
       </div>
